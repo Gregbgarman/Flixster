@@ -12,6 +12,7 @@ import java.util.List;
 @Parcel
 public class Movie {        //has all the info/image to display for each movie entry
     String posterPath;
+    String bean;
     String title;
     String overview;            //creating each and then getting from json file
     String backdropPath;
